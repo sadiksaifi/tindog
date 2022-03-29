@@ -1,0 +1,164 @@
+/* Overall Section */
+body {
+  font-family: Montserrat;
+  font-weight: normal;
+}
+
+/* Title Section */
+#title {
+  background-color: #ff4d69;
+  padding: 3% 15% 10%;
+}
+
+.navbar {
+  padding-bottom: 7%;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 3.5rem;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding: 0 50px;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.btn {
+  margin: 20px 15px 0 0;
+}
+
+.iphone-img {
+  width: 20%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 23%;
+}
+
+/* Feature Section */
+#features {
+  background-color: #fff;
+  padding: 7% 15%;
+  line-height: 2;
+  position: relative;
+  z-index: 1;
+}
+
+.feat-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.feat-icons {
+  font-size: 5rem;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feat-icons:hover {
+  color: #ff4c68;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.testi-img {
+  width: 130px;
+  border-radius: 100%;
+  margin: 3rem 0;
+}
+
+em {
+  font-weight: bold;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.press-img {
+  padding: 1.5rem 2rem;
+}
+
+/* Pricing Section */
+#pricing {
+  text-align: center;
+  margin: 7% 15%;
+}
+
+/* Footer Section */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-des {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 900;
+  padding-bottom: 5%;
+}
+
+/* Footer Section */
+#footer {
+  background-color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.footer-icons {
+  padding: 20px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Media Query */
+@media (max-width: 1028px) {
+  .title-section {
+    text-align: center;
+  }
+
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+    width: 100%;
+    padding-top: 10%;
+  }
+}
